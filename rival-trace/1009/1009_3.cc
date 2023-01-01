@@ -2,6 +2,8 @@
 //#include <bits/stdc++.h>
 using namespace std;
 
+//Problem site: https://www.acmicpc.net/problem/1009
+
 int main() {
 
     ios_base::sync_with_stdio(false);
@@ -18,7 +20,8 @@ int main() {
     while(TC--) {
         cin >> a >> b;
 
-        if(b > 0) b = b %4 + 4;
+        if(b > 0)
+            b = b %4 + 4;
 
         int ret = 1;
         while(b--) {
