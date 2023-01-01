@@ -1,7 +1,7 @@
 # base
 
 CMakeLists.txt
-
+main.cpp
 
 # Created by https://www.toptal.com/developers/gitignore/api/clion+all
 # Edit at https://www.toptal.com/developers/gitignore?templates=clion+all
