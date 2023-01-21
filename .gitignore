@@ -2,7 +2,7 @@
 
 CMakeLists.txt
 main.cpp
-solution.cpp
+solution.*
 sample_sample_input.txt
 samsung-expert-academy/*
 # Created by https://www.toptal.com/developers/gitignore/api/clion+all
