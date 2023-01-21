@@ -41,16 +41,5 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-
-    cin >> N >> L;
-
-    int ret = solve();
-
-    if (ret == -1) {
-        cout << "-1";
-        return 0;
-    }
-    printFrom(ret);
-
-    return 0;
+z
 }
