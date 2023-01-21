@@ -2,7 +2,9 @@
 
 CMakeLists.txt
 main.cpp
-
+solution.cpp
+sample_sample_input.txt
+samsung-expert-academy/*
 # Created by https://www.toptal.com/developers/gitignore/api/clion+all
 # Edit at https://www.toptal.com/developers/gitignore?templates=clion+all
 
