@@ -3,16 +3,18 @@
 
 using namespace std;
 
-//Problem site: https://www.acmicpc.net/problem/
-
 // TC: O()
 // SC: O()
 
-void printByIndex(int idx, int ret) {
+int ret;
+int N;
+//string ret
+
+void printByIndex(int idx) {
     cout << '#' << (idx + 1) << ' ' << ret << '\n';
 }
 
-int solve() {
+void solve() {
 
 }
 
@@ -27,8 +29,10 @@ int main() {
     cin >> TC;
 
     for (int i = 0; i < TC; ++i) {
+        cin >> N;
 
-        printByIndex(i, solve());
+        solve();
+        printByIndex(i);
     }
 
 
